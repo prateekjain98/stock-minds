@@ -1,13 +1,11 @@
-# Tailcast
+# Landing Page
 
-Dark themed website template built on AstroJS, designed for technological startup business.
+Built on AstroJS
 
 ## Tech stack:
 
 Astro, React, Tailwind, Framer Motion
 
-## Live link
-[https://tailcast.vercel.app/](https://tailcast.vercel.app/)
 
 ##  Project Structure
 

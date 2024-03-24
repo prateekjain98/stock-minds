@@ -73,7 +73,7 @@ export const FeaturesDiagonal = () => {
         </svg>
       </div>
       {isModalOpen && (
-        <InvitationModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
+        <InvitationModal setIsOpen={setIsModalOpen} />
       )}
     </section>
   );

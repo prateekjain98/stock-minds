@@ -59,7 +59,13 @@ export const FAQ = () => (
   </section>
 );
 
-const FAQBox = ({ defaultOpen, title, content }) => {
+type Props = {
+  defaultOpen: boolean;
+  title: string;
+  content: string;
+};
+
+const FAQBox = ({ defaultOpen, title, content }: Props) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);
 
   return (
