@@ -2,8 +2,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 import { CloseIcon } from "../assets/icons/CloseIcon";
-import { StockMindsLogo } from "../assets/logos/StockMindsLogo";
 import { Dispatch, SetStateAction } from "react";
+import { StockMindsLogo } from "@/assets/logos/StockMindsLogo";
 
 type Props = {
   setIsOpen: Dispatch<SetStateAction<boolean>>;
