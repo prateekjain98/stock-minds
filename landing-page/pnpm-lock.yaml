@@ -4,6 +4,10 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@types/react': ^18.2.0
+  '@types/react-dom': ^18.2.0
+
 dependencies:
   '@astrojs/tailwind':
     specifier: ^3.1.1
@@ -12,7 +16,7 @@ dependencies:
     specifier: ^4.5.15
     version: 4.5.15
   astro:
-    specifier: ^2.2.0
+    specifier: ^2.10.15
     version: 2.10.15
   framer-motion:
     specifier: ^10.11.2
@@ -110,8 +114,8 @@ packages:
     resolution: {integrity: sha512-hGOnvLA7xA0rry0tr0g0LiO7bsYK9yyrs0k+OVakVkXsWgBVgqXI2a2KBVc/W+vOBB9mFXMG4EnrqdMPcttT5Q==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
-      '@types/react': ^17.0.50 || ^18.0.21
-      '@types/react-dom': ^17.0.17 || ^18.0.6
+      '@types/react': ^18.2.0
+      '@types/react-dom': ^18.2.0
       react: ^17.0.2 || ^18.0.0
       react-dom: ^17.0.2 || ^18.0.0
     dependencies:
