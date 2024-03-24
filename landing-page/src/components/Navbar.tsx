@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
+import { StockMindsLogo } from "@/assets/logos/StockMindsLogo";
 
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
@@ -27,7 +27,7 @@ export const Navbar = () => {
           <a className="navbar-link" href="#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
               <div className="text-white mr-2 text-6xl">
-                <TailcastLogo />
+                <StockMindsLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
                 Stock Minds
@@ -64,7 +64,7 @@ export const Navbar = () => {
             <a
               className="text-white custom-border-gray rounded-xl
            bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
+              href="https://github.com/prateekjain98/stock-minds"
               target="_blank"
               aria-label="source code"
             >
